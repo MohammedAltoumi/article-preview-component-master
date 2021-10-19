@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+body {
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+    margin-top: 30px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+.drewers {
+    overflow: hidden;
+    height: 250px;
+}
+.drewers img {
+    width: 100%;
+}
+.script {
+    margin: 30px;
+    line-height: 1.3rem;
+}
+.script .part-one {
+    font-size: 16px;
+}
+.script .part-two {
+    color: gray;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    margin: 20px 30px;    
+}
+.main-info {
+    display: flex;
+    visibility: visible;
+}
+.main img:first-child {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.name {
+    padding: 5px 10px;
+}
+.date {
+    margin: 0;
+    color: gray;
+}
+#shareButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgb(220, 213, 213);
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
+    z-index: 2;
+}
+#shareButton img {
+    width: 20px;
+    height: 20px;
+}
+
+.share {
+    background-color: hsl(217, 19%, 35%);
+    height: 80px;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+    width: 100%;
+
+}
+.logo {
+    visibility: hidden;
+}
